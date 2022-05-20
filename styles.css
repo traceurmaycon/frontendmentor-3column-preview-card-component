@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  background: #f2f2f2;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+main {
+  padding: 8.8rem 2.4rem;
+}
+
+h1 {
+  font-family: "Big Shoulders Display", cursive;
+  font-weight: 700;
+  margin-top: 4.2rem;
+  text-transform: uppercase;
+}
+
+.card {
+  padding: 4.8rem 5rem;
+}
+
+.card > p {
+  margin-top: 4rem;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+}
+
+.card > a {
+  display: inline-block;
+  margin-top: 3.2rem;
+  padding: 1.6rem 3rem;
+  border: 0.2rem solid #f2f2f2;
+  border-radius: 50px;
+  background-color: #f2f2f2;
+  text-decoration: none;
+  -webkit-transition: all 300ms;
+  transition: all 300ms;
+}
+
+.card > a:hover {
+  background: transparent;
+  color: #f2f2f2;
+}
+
+.card-orange {
+  border-radius: 2rem 2rem 0 0;
+  background-color: #e38826;
+}
+
+.card-orange > a {
+  color: #e38826;
+}
+
+.card-dark-cyan {
+  background-color: #006970;
+}
+
+.card-dark-cyan > a {
+  color: #006970;
+}
+
+.card-very-dark-cyan {
+  background-color: #004241;
+  border-radius: 0 0 2rem 2rem;
+}
+
+.card-very-dark-cyan > a {
+  color: #004241;
+}
+
+.attribution {
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+  text-align: center;
+  color: #000;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+@media (min-width: 768px) {
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+  }
+  main {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    max-width: 96rem;
+    margin-inline: auto;
+    padding: 2rem;
+    min-height: 100vh;
+  }
+  .card {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 100%;
+            flex: 1 1 100%;
+    padding: 4.8rem;
+    height: 100%;
+  }
+  .card > a {
+    margin-top: 8.5rem;
+  }
+  .card-orange {
+    border-radius: 2rem 0 0 2rem;
+  }
+  .card-very-dark-cyan {
+    border-radius: 0 2rem 2rem 0;
+  }
+  .attribution {
+    position: absolute;
+    bottom: 2rem;
+    left: 0;
+    right: 0;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
